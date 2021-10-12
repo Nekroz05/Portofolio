@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../homepage/homepage.css">
+    <link rel="stylesheet" href="../navbar/navbar.css">
+    <link rel="stylesheet" href="../Footer/footer.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./homepage.js"></script>
+    <script src="../subscriber.js"></script>
+</head>
+<body onload="subsCheck()">
+    <div class="nav-main">
+        <div class="nav-logo">
+            <a href="../homepage/homepage-login.html">
+                <img src="../Assets/header/logo.png" alt="logo-letflix">
+            </a>
+        </div>
+        <div class="title">
+            <h1>LeTflix</h1>
+            <h3>The Best Streaming Platform</h3>
+        </div>
+        <div class="nav-right">
+            <div class="dropdown-main">
+                <p>Navigation</p>
+                <div class="dropdown-isi">
+                    <ul>
+                        <li><a href="../homepage/homepage-login.html">Home</a></li>
+                        <hr> 
+                        <li><a href="../dramas/dramas.html">Dramas</a></li>
+                        <hr>
+                        <li><a href="../plan/plan.html">Plan</a></li>
+                        <hr>
+                        <li><a href="../form/form.html">Subscription</a></li>
+                        <hr>
+                        <li><a href="../about/about.html">About</a></li>
+                    </ul>
+                </div>
+            </div> 
+            <div id="SubscribeNowDiv">
+                <a href="../form/form.html"><button class="button-class">Subscribe Now</button></a>
+            </div>
+            <p id="SubscribeNowP" style="display: none;">Subscribed</p>
+        </div>
+    </div>
+
+    <div class="imageCarousel">
+        <button class="arrow" id="prevBtn">
+            <img src="../Assets/homepage/Polygon_2_1.svg" alt="">
+        </button>
+        
+        <div class="container">
+            <img src="../Assets/poster/MUNA.jpg" alt="" class="carouselImage">
+            <img src="../Assets/poster/test-movie2.jpg" alt="" class="carouselImage">
+            <img src="../Assets/poster/300Rise of an empire.png" alt="" class="carouselImage">
+            <img src="../Assets/poster/interstellar.png" alt="" class="carouselImage">
+        </div>
+
+        <button class="arrow" id="nextBtn">
+            <img src="../Assets/homepage/Polygon_2_1.svg" alt="">
+        </button>
+    </div>
+
+    <div class="big-reason-container">
+        <h1>Why You Should Subscribe to LetFlix?</h1>
+        <div class="reason-container">
+            <div class="reason-item">
+                <p>Millions movies and Tv Shows</p>
+                <img src="../Assets/homepage/hci-gambaredit 1.svg" alt="">
+                <p>including Movies and Tv shows from Indonesia, USA, UK, Thailand, Korea, Japan</p>
+            </div>
+            <div class="reason-item">
+                <p>Watch it anywhere and anytime</p>
+                <img src="../Assets/homepage/hci-gambaredit2 1.svg" alt="">
+                <p>You can download the film all over your devices</p>
+            </div>
+            <div class="reason-item">
+                <p>Kids Friendly</p>
+                <img src="../Assets/homepage/hci-gambaredit3 1.svg" alt="">
+                <p>Letflix Kids is available with thousands of Movies and Tv show for kids</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="movie-container">
+        <div class="continue-watching">
+            <h1>Continue Watching</h1>
+            <div class="mov-posters">
+                <div class="transparant"></div>
+                <img src="../Assets/Poster/2.jpg" alt="">
+                <img src="../Assets/Poster/butter.jpg" alt="">
+                <img src="../Assets/Poster/coach.jpg" alt="">
+                <img src="../Assets/Poster/CRA.jpg" alt="">
+                <img class="kanan" src="../Assets/Poster/godfather.jpg" alt="">
+                <img src="../Assets/Poster/gundam.jpg" alt="">
+                <img src="../Assets/Poster/happi.jpg" alt="">
+                <img src="../Assets/Poster/howl.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="movie-recommendation">
+            <h1>Movie Recomendation</h1>
+            <div class="mov-posters">
+                <div class="transparant"></div>
+                <img src="../Assets/Poster/dora.jpg" alt="">
+                <img src="../Assets/Poster/emoji.jpg" alt="">
+                <img src="../Assets/Poster/flipped.jpg" alt="">
+                <img src="../Assets/Poster/geisha.jpg" alt="">
+                <img class="kanan" src="../Assets/Poster/2.jpg" alt="">
+                <img src="../Assets/Poster/butter.jpg" alt="">
+                <img src="../Assets/Poster/coach.jpg" alt="">
+                <img src="../Assets/Poster/CRA.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_basic">
+        <h1 id="contact_us">Contact Us</h1>
+        <div class="logolist">
+            <a href="https://www.twitter.com/"><img src="../Assets/Footer/logo-dark-twitter-png-20.png" alt=""></a>
+            <a href="https://www.instagram.com/"><img src="../Assets/Footer/logo-ig.png" alt=""></a>
+            <a href="https://www.youtube.com/"><img src="../Assets/Footer/youtube (2).png" alt=""></a>
+            <a href="https://www.facebook.com/"><img src="../Assets/Footer/facebook.png" alt=""></a>
+        </div>
+    </div>
+</body>
+</html>

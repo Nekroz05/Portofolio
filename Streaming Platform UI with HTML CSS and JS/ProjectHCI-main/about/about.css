@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+}
+
+.about, .dev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container h1, .dev-container h1{
+    color: grey;
+}
+
+.about-container, .dev-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    align-items: center;
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-content, .dev-content{
+    display: flex;
+    margin-bottom: 2%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: center;
+}
+h2{
+    margin: 0;
+}
+.about-item, .dev-item, .career-item{
+    width: 25%;
+    background-color: #267DD3;
+    height: 18em;
+    border-radius: 2em;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    text-align: center;
+    transition: .2s;
+    
+}
+
+.dev-item{
+    height: 20em;
+}
+
+.about-item h2, .dev-item h2{
+    font-size: xx-large;
+}
+
+.dev-item img{
+    width: 60%;
+    border-radius: 50%;
+}
+
+.about-item:hover{
+    background-color: white;
+    width: 30%;
+    height: 20em;
+    transition: .2s;
+    color: #267DD3;
+    border: 1px solid #267DD3;
+    font-size: 105%;
+    box-shadow: 0 0 10px 2px #267DD3;
+}
+
+.career-item{
+    height: 23em;
+}
+
+.career-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (max-width: 1100px){
+    .about-content, .dev-content{
+        flex-direction: column;
+    }
+    .about-item, .dev-item, .career-item{
+        width: 50%;
+        height: 25em;
+        margin-bottom: 2%;
+    }
+
+    .career-item{
+        margin: 2%;
+    }
+
+    .about-item:hover{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .about-item, .dev-item{
+        width: 50%;
+        height: 25em;
+    }
+
+    .career-item{
+        height: 20em;
+        width: 60%;
+    }
+
+    .career-content{
+        flex-direction: column; 
+          
+    }
+}

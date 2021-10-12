@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./form.css">
+        <link rel="stylesheet" href="../navbar/navbar.css">
+        <link rel="stylesheet" href="../Footer/footer.css">
+        <script src="../subscriber.js"></script>
+    </head>
+    <body onload="subsCheck()">
+        <div class="nav-main">
+            <div class="nav-logo">
+                <a href="../homepage/homepage-login.html">
+                    <img src="../Assets/header/logo.png" alt="logo-letflix">
+                </a>
+            </div>
+            <div class="title">
+                <h1>LeTflix</h1>
+                <h3>The Best Streaming Platform</h3>
+            </div>
+            <div class="nav-right">
+                <div class="dropdown-main">
+                    <p>Navigation</p>
+                    <div class="dropdown-isi">
+                        <ul>
+                            <li>
+                                <a href="../homepage/homepage-login.html">Home</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="../dramas/dramas.html">Dramas</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="../plan/plan.html">Plan</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="../form/form.html">Subscription</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="../about/about.html">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="SubscribeNowDiv">
+                    <a href="../form/form.html">
+                        <button class="button-class">Subscribe Now</button>
+                    </a>
+                </div>
+                <p id="SubscribeNowP" style="display: none;">Subscribed</p>
+            </div>
+        </div>
+        <div class="big">
+            <div class="form-container">
+                <h1 id="signup">SIGN UP</h1>
+                <div class="form-container2">
+                    <form id="form" class="form">
+                        <div class="form-row">
+                            <label for="inputname">Name</label>
+                            <input type="text" id="inputname">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-row">
+                            <label for="inputemail">Email</label>
+                            <input type="email" id="inputemail">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-row">
+                            <label for="inputpass">Password</label>
+                            <input type="password" id="inputpass">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-row">
+                            <label for="inputpassconf">Confirm your Password</label>
+                            <input type="password" id="inputpassconf">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-row">
+                            <label for="inputphone">Phone Number</label>
+                            <input type="text" id="inputphone">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-row">
+                            <label for="inputcountry">Country</label>
+                            <input type="text" id="inputcountry">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-row-dob">
+                            <label for="inputdob">Date of Birth</label>
+                            <input type="date" id="inputdob">
+                        </div>
+                        <p id="package">Select Your Package</p>
+                        <div class='form-row2'>
+                            <div class="package-item">
+                                <label for="Silver">Silver</label>
+                                <input type="radio" name="package" id="Silver">
+                            </div>
+                            <div class="package-item">
+                                <label for="Gold">Gold</label>
+                                <input type="radio" name="package" id="Gold">
+                            </div>
+                            <div class="package-item">
+                                <label for="Platinum">Platinum</label>
+                                <input type="radio" name="package" id="Platinum">
+                            </div>
+                        </div>
+                        <p id="Gender">Gender</p>
+                        <div class='form-row2'>
+                            <div class="package-item">
+                                <label for="Male">Male</label>
+                                <input type="radio" name="gender" id="Male">
+                            </div>
+                            <div class="package-item">
+                                <label for="Female">Female</label>
+                                <input type="radio" name="gender" id="Female">
+                            </div>
+                        </div>
+                        <p>Payment Option</p>
+                        <div class="payment">
+                            <select name="" id="">
+                                <option value="">Go-Pay</option>
+                                <option value="">Ovo</option>
+                                <option value="">BCA Virtual Account</option>
+                                <option value="">Link Aja</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="form-row2">
+                            <label for="inputagree">I Agree to Terms</label>
+                            <input type="checkbox" id="inputagree">
+                        </div>
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer_basic">
+            <h1 id="contact_us">Contact Us</h1>
+            <div class="logolist">
+                <a href="https://www.twitter.com/">
+                    <img src="../Assets/Footer/logo-dark-twitter-png-20.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="../Assets/Footer/logo-ig.png" alt="">
+                </a>
+                <a href="https://www.youtube.com/">
+                    <img src="../Assets/Footer/youtube (2).png" alt="">
+                </a>
+                <a href="https://www.facebook.com/">
+                    <img src="../Assets/Footer/facebook.png" alt="">
+                </a>
+            </div>
+        </div>
+        <script src="./form.js"></script>
+    </body>
+</html>

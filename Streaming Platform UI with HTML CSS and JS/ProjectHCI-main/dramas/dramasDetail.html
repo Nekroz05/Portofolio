@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DramasDetail</title>
+    <link rel="stylesheet" href="../navbar/navbar.css">
+    <link rel="stylesheet" href="./detailStyle.css">
+    <link rel="stylesheet" href="../Footer/footer.css">
+    <script src="./dramas.js"></script>
+    <script src="../subscriber.js"></script>
+</head>
+<body onload="arriveAtDramaDetail(),subsCheck()">
+    
+    <a name="top"></a>
+    <!-- Start Navbar -->
+    <div class="nav-main">
+        <div class="nav-logo">
+            <a href="../homepage/homepage-login.html">
+                <img src="../Assets/header/logo.png" alt="logo-letflix">
+            </a>
+        </div>
+        <div class="title">
+            <h1>LeTflix</h1>
+            <h3>The Best Streaming Platform</h3>
+        </div>
+        <div class="nav-right">
+            <div class="dropdown-main">
+                <p>Navigation</p>
+                <div class="dropdown-isi">
+                    <ul>
+                        <li><a href="../homepage/homepage-login.html">Home</a></li>
+                        <hr> 
+                        <li><a href="../dramas/dramas.html">Dramas</a></li>
+                        <hr>
+                        <li><a href="../plan/plan.html">Plan</a></li>
+                        <hr>
+                        <li><a href="../form/form.html">Subscription</a></li>
+                        <hr>
+                        <li><a href="../about/about.html">About</a></li>
+                    </ul>
+                </div>
+            </div> 
+            <div id="SubscribeNowDiv">
+                <a href="../form/form.html"><button class="button-class">Subscribe Now</button></a>
+            </div>
+            <p id="SubscribeNowP" style="display: none;">Subscribed</p>
+        </div>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Start Content -->
+    <a href="#top" class="stickyToTop">Top</a>
+    
+    <h1 id="COUNTRYNAME">TEST</h1>
+
+    <div class="movie content">
+        <div class="movie header">
+            <h1>Action</h1>
+            <a name="Action"></a>
+            <!-- <a href="#top" class="toTop">Back To Top</a> -->
+        </div>
+
+        <div class="movie category">
+            <div class="movie preview">
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt="Movie1"> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                
+            </div>
+
+            <div class="movie preview">
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt="Movie1"> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="movie header">
+            <h1>Comedy</h1><a name="Comedy"></a>
+            <!-- <a href="#top" class="toTop">Back To Top</a> -->
+        </div>
+
+        <div class="movie category">
+            <div class="movie preview">
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt="Movie1"> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                
+            </div>
+
+            <div class="movie preview">
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt="Movie1"> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="movie header">
+            <h1>Adventure</h1><a name="Adventure"></a>
+            <!-- <a href="#top" class="toTop">Back To Top</a> -->
+        </div>
+
+        <div class="movie category">
+            <div class="movie preview">
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt="Movie1"> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                
+            </div>
+
+            <div class="movie preview">
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt="Movie1"> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="movie header">
+            <h1>Sci-fi</h1><a name="Sci-fi"></a>
+            <!-- <a href="#top" class="toTop">Back To Top</a> -->
+        </div>
+
+        <div class="movie category">
+            <div class="movie preview">
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt="Movie1"> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                
+            </div>
+
+            <div class="movie preview">
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt="Movie1"> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="movie header">
+            <h1>Horor</h1><a name="Horor"></a>
+            <!-- <a href="#top" class="toTop">Back To Top</a> -->
+        </div>
+
+        <div class="movie category">
+            <div class="movie preview">
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt="Movie1"> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                
+            </div>
+
+            <div class="movie preview">
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt="Movie1"> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                <div class="individual movie" id="web">
+                    <a href=""><img src="../Assets/poster/dora.jpg" alt=""> <p>Movie 1</p></a>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <!-- End Content -->
+
+    <!-- Start Footer -->
+    <div class="footer_basic">
+        <h1 id="contact_us">Contact Us</h1>
+        <div class="logolist">
+            <a href="https://www.twitter.com/"><img src="../Assets/Footer/logo-dark-twitter-png-20.png" alt=""></a>
+            <a href="https://www.instagram.com/"><img src="../Assets/Footer/logo-ig.png" alt=""></a>
+            <a href="https://www.youtube.com/"><img src="../Assets/Footer/youtube (2).png" alt=""></a>
+            <a href="https://www.facebook.com/"><img src="../Assets/Footer/facebook.png" alt=""></a>
+        </div>
+    </div>
+    <!-- End Footer -->
+</body>
+</html>

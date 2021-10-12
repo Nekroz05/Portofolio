@@ -1,0 +1,128 @@
+.body {
+    overflow: hidden;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 2% 3% 2%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.dropdown-isi ul hr {
+    color: #267DD3;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-main {
+    text-align: center;
+    color: #267DD3;
+}
+
+.dropdown-main:hover .dropdown-isi {
+    display: block;
+    z-index: 1;
+}
+
+.dropdown-isi {
+    display: none;
+    position: absolute;
+    border: 0.5px solid #267DD3;
+    width: 12%;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.dropdown-isi ul li a:hover {
+    text-shadow: 0 0 1px #267DD3, 0 0 10px #267DD3, 0 0 10px #267DD3;
+}
+
+.dropdown-isi li a {
+    text-decoration: none;
+    color: #267DD3;
+    margin-bottom: 20%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 4em;
+}
+
+.title h1,
+.title h3 {
+    margin: 0%;
+    color: #53535E;
+}
+
+.dropdown-isi ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    padding: 0 0 0 0;
+    align-items: center;
+}
+
+.dropdown-isi li {
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+    margin-left: none;
+    text-align: start;
+}
+
+.nav-logo img {
+    width: 100px;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20%;
+}
+
+.button-class {
+    background-color: #267DD3;
+    border-radius: 53mm;
+    width: 10em;
+    height: 3em;
+    border: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 20%;
+}
+
+.button-class:hover {
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(38, 125, 211, 1) 100%);
+}
+
+@media screen and (max-width: 900px) {
+    .title {
+        display: none;
+    }
+
+    .nav-right {
+        width: 50%;
+
+    }
+    .dropdown-isi {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .nav-right {
+        margin-right: 10%;
+    }
+}

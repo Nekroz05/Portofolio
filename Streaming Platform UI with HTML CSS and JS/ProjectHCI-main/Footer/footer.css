@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.footer_basic {
+    display: flex;
+    flex-direction: column;
+    background: #267DD3;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: 3%;
+    padding-bottom: 1%;
+}
+
+.logolist img {
+    width: 2%;
+    padding: 0 1% 0 1%;
+
+}
+
+@media only screen and (max-width: 900px) {
+    .footer_basic {
+        bottom: 0;
+        width: 100%;
+    }
+
+    .logolist img {
+        width: 5%;
+        padding: 0 1% 0 1%;
+    }
+}
