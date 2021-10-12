@@ -1,0 +1,15 @@
+ME = Critical Value * Standard Error
+
+Confidence Level = 95
+
+alpha
+α = 1 - (confidence level / 100)
+
+Critical Probability
+p* = 1 - α/2
+
+Degrees of freedom 
+df = n - 2 
+
+Standard Error
+sqrt [ sigmaY / (n - 2) ] / sqrt(sigmaX)
